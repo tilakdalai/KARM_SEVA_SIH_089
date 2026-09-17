@@ -16,12 +16,6 @@
 | **Team ID** | `120765` |
 | **Team Name** | **ARTARS** |
 
-* **Problem Statement ID** – `26089`
-* **Problem Statement Title** – Cooperative Gig Services Platform for Household & Community Services
-* **Theme** – Agriculture, FoodTech & Rural Development
-* **PS Category** – Software
-* **Team ID** – `120765`
-* **Team Name** – **ARTARS**
 
 ---
 
