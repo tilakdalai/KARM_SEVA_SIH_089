@@ -33,6 +33,18 @@ Anchored in the principles of **Platform Cooperativism** and India Stack (e-Shra
 
 ---
 
+## 👥 Master Role Architecture
+
+| Role (Internal Enum) | KARM SEVA Display Label | Purpose & Scope | Primary Workspace |
+| :--- | :--- | :--- | :--- |
+| `CUSTOMER` | **Citizen** | Household service discovery, smart matching, emergency SOS, live tracking, escrow payments | `/customer` |
+| `WORKER` | **Seva Partner** | Digital KARM ID, custom work radius (1-10 km), job shift acceptance, leave management, wallet | `/worker` |
+| `COOPERATIVE_ADMIN` | **Seva Cooperative** | Operations control room, 4-tier verification queue, replacement mediation, 10% welfare ledger | `/cooperative` |
+| `INSTITUTION` | **Institution** | Bulk workforce team requests, multi-day schedules, campus attendance, consolidated GST billing | `/institution` |
+| `SYSTEM_ADMIN` | **Platform Administrator** | Statewide oversight, cooperative accreditation, dispute tribunal, audit logs, impact analytics | `/admin` |
+
+---
+
 ## ⚖️ Comparative Analysis: KARM SEVA vs Existing Solutions
 
 | Dimension / Feature | Commercial Aggregators<br>*(Urban Company, Housejoy, TaskRabbit)* | Informal Labor Nakas<br>*(Daily Chowk / Thekedar System)* | 🏛️ **KARM SEVA**<br>*(Cooperative Public Digital Infrastructure)* |
@@ -71,20 +83,7 @@ Anchored in the principles of **Platform Cooperativism** and India Stack (e-Shra
 6. **Institutional-Grade B2B & B2G Infrastructure**  
    KARM SEVA is not just a consumer app; it provides government bodies, universities, and corporate campuses with enterprise tools for bulk workforce deployment, QR-based geo-fenced attendance, and unified GST compliance billing.
 
----
-
-## 👥 Master Role Architecture
-
-| Role (Internal Enum) | KARM SEVA Display Label | Purpose & Scope | Primary Workspace |
-| :--- | :--- | :--- | :--- |
-| `CUSTOMER` | **Citizen** | Household service discovery, smart matching, emergency SOS, live tracking, escrow payments | `/customer` |
-| `WORKER` | **Seva Partner** | Digital KARM ID, custom work radius (1-10 km), job shift acceptance, leave management, wallet | `/worker` |
-| `COOPERATIVE_ADMIN` | **Seva Cooperative** | Operations control room, 4-tier verification queue, replacement mediation, 10% welfare ledger | `/cooperative` |
-| `INSTITUTION` | **Institution** | Bulk workforce team requests, multi-day schedules, campus attendance, consolidated GST billing | `/institution` |
-| `SYSTEM_ADMIN` | **Platform Administrator** | Statewide oversight, cooperative accreditation, dispute tribunal, audit logs, impact analytics | `/admin` |
-
----
-
+```
 ## 📁 Repository Structure
 
 ```
