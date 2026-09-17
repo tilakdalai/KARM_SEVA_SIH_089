@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f294a" />
+      <stop offset="100%" stop-color="#1e3a5f" />
+    </linearGradient>
+    <linearGradient id="saffronGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9933" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <!-- Premium Rounded Canvas -->
+  <rect width="100" height="100" rx="24" fill="url(#bgGrad)" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Tricolor Accent Top Bar -->
+  <rect x="20" y="8" width="60" height="3" rx="1.5" fill="url(#saffronGrad)" opacity="0.9" />
+
+  <!-- Stylized Monogram K - Work & Service -->
+  <!-- Vertical Pillar (Dignity & Structure) -->
+  <rect x="26" y="24" width="12" height="52" rx="6" fill="#ffffff" />
+
+  <!-- Upper Dynamic Arm (Skill Opportunity - Saffron) -->
+  <path d="M42 50 L64 27 C66.5 24.5 70.5 24.5 73 27 C75.5 29.5 75.5 33.5 73 36 L54 55 Z" fill="url(#saffronGrad)" />
+
+  <!-- Lower Grounded Arm (Community Service - Green) -->
+  <path d="M42 50 L65 73 C67.5 75.5 71.5 75.5 74 73 C76.5 70.5 76.5 66.5 74 64 L55 45 Z" fill="url(#greenGrad)" />
+
+  <!-- Center Connection Node (Public Digital Infrastructure Hub) -->
+  <circle cx="48" cy="50" r="5" fill="#ffffff" />
+</svg>
+

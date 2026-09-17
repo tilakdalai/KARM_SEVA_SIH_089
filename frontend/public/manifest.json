@@ -1,0 +1,50 @@
+{
+  "id": "karmseva-pwa-v1",
+  "short_name": "KARM SEVA",
+  "name": "KARM SEVA",
+  "description": "Connecting Skills. Creating Opportunities. Serving Communities.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#0f294a",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["government", "productivity", "utilities", "business"],
+  "shortcuts": [
+    {
+      "name": "Emergency SOS",
+      "short_name": "Emergency",
+      "description": "15-Minute Emergency Seva Partner Dispatch",
+      "url": "/customer/emergency",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Citizen Portal",
+      "short_name": "Find Service",
+      "description": "Find verified Seva Partners & book trusted services",
+      "url": "/customer",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Seva Partner Portal",
+      "short_name": "Partner",
+      "description": "Work shifts, transparent payouts, and KARM ID",
+      "url": "/worker",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    }
+  ]
+}

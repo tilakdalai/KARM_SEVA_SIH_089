@@ -1,0 +1,36 @@
+export const APP_CONFIG = {
+  NAME: 'KARM SEVA',
+  FULL_NAME: 'KARM SEVA — Connecting Skills. Creating Opportunities. Serving Communities.',
+  HINDI_NAME: 'कर्म सेवा — कौशल से सेवा, समुदाय का विकास',
+  TAGLINE: 'Connecting Skills. Creating Opportunities. Serving Communities.',
+  SUBTITLE: 'A trusted digital platform for workers, citizens, cooperatives and institutions.',
+  HERO_SUPPORTING: 'Find trusted local services, connect with verified workers, and manage work with confidence.',
+  HELPLINE: '1800-KARM-00 (Toll-Free)',
+  GRIEVANCE_EMAIL: 'grievance@karmseva.gov.in',
+  VERSION: '1.0.0',
+  API_BASE_URL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api/v1',
+  DEFAULT_LANGUAGE: 'en' as const,
+  LANGUAGES: [
+    { code: 'en', label: 'English', native: 'English' },
+    { code: 'hi', label: 'Hindi', native: 'हिन्दी' },
+    { code: 'or', label: 'Odia', native: 'ଓଡ଼ିଆ' },
+  ],
+  STORAGE_KEYS: {
+    AUTH_TOKEN: 'karmseva_auth_token',
+    USER_DATA: 'karmseva_user_data',
+    LANGUAGE: 'karmseva_lang',
+  },
+  TERMINOLOGY: {
+    PLATFORM: 'KARM SEVA',
+    WORKER: 'Seva Partner',
+    WORKER_WITH_ROLE: 'Seva Partner / Worker',
+    CITIZEN: 'Citizen',
+    INSTITUTION: 'Institution',
+    COOPERATIVE: 'Seva Cooperative',
+    ADMIN: 'Platform Administrator',
+    WORKER_ID: 'KARM ID',
+    SMART_MATCHING: 'KARM SEVA Smart Matching',
+    DEMAND_INTELLIGENCE: 'KARM SEVA Demand Intelligence',
+  },
+};
+

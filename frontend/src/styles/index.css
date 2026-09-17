@@ -1,0 +1,145 @@
+@import "leaflet/dist/leaflet.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-green: #138a5b;
+    --brand-green-dark: #0f724a;
+    --brand-saffron: #ff9933;
+    --brand-saffron-dark: #e67300;
+    --brand-navy: #1f4e79;
+    --brand-navy-dark: #0f2942;
+    --gov-border: #d7e0ea;
+    --gov-bg: #f8fafc;
+    --gov-panel: #ffffff;
+    --gov-text: #183046;
+    --gov-muted: #52667a;
+  }
+
+  body {
+    background-color: var(--gov-bg);
+    color: var(--gov-text);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Accessibility text scaling classes */
+  html.font-scaling-normal {
+    font-size: 100%;
+  }
+
+  html.font-scaling-large {
+    font-size: 118%;
+  }
+
+  html.font-scaling-xlarge {
+    font-size: 135%;
+  }
+
+  /* High contrast mode */
+  html.high-contrast {
+    --gov-bg: #000000;
+    --gov-panel: #111111;
+    --gov-text: #ffffff;
+    --gov-muted: #e2e8f0;
+    --gov-border: #facc15;
+    filter: contrast(125%);
+  }
+
+  html.high-contrast body {
+    background-color: #050505;
+    color: #ffffff;
+  }
+
+  html.high-contrast .bg-white {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+    border-color: #475569 !important;
+  }
+
+  html.high-contrast .text-slate-900,
+  html.high-contrast .text-slate-800,
+  html.high-contrast .text-slate-700 {
+    color: #ffffff !important;
+  }
+
+  html.high-contrast .text-slate-600,
+  html.high-contrast .text-slate-500 {
+    color: #cbd5e1 !important;
+  }
+
+  /* Reduced motion */
+  html.reduce-motion,
+  html.reduce-motion *,
+  html.reduce-motion *::before,
+  html.reduce-motion *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Dyslexia / High-Legibility Font */
+  html.dyslexic-font,
+  html.dyslexic-font body,
+  html.dyslexic-font input,
+  html.dyslexic-font textarea,
+  html.dyslexic-font button {
+    letter-spacing: 0.05em !important;
+    word-spacing: 0.1em !important;
+    line-height: 1.8 !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  }
+
+  /* High Visibility Keyboard Focus Rings */
+  :focus-visible {
+    outline: 3px solid #138a5b !important;
+    outline-offset: 2px !important;
+  }
+
+  html.high-contrast :focus-visible {
+    outline: 3px solid #facc15 !important;
+    outline-offset: 3px !important;
+  }
+}
+
+/* Government Tricolor Top Ribbon */
+.gov-ribbon {
+  height: 4px;
+  background: linear-gradient(90deg, #ff9933 0%, #ff9933 33.33%, #ffffff 33.33%, #ffffff 66.66%, #138a5b 66.66%, #138a5b 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Clean Government Panel Card */
+.gov-card {
+  background: #ffffff;
+  border: 1px solid var(--gov-border);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px -2px rgba(24, 48, 70, 0.06), 0 1px 3px -1px rgba(24, 48, 70, 0.04);
+}
+
+.gov-card-hover {
+  transition: all 0.2s ease-in-out;
+}
+.gov-card-hover:hover {
+  border-color: #138a5b;
+  box-shadow: 0 8px 24px -4px rgba(24, 48, 70, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
