@@ -83,7 +83,7 @@ Anchored in the principles of **Platform Cooperativism** and India Stack (e-Shra
 6. **Institutional-Grade B2B & B2G Infrastructure**  
    KARM SEVA is not just a consumer app; it provides government bodies, universities, and corporate campuses with enterprise tools for bulk workforce deployment, QR-based geo-fenced attendance, and unified GST compliance billing.
 
-```
+
 ## 📁 Repository Structure
 
 ```
