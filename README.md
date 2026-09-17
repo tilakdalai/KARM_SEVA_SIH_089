@@ -1,8 +1,27 @@
 # KARM SEVA (कर्म सेवा)
 
-**Connecting Skills. Creating Opportunities. Serving Communities.**  
-*Smart India Hackathon 2026 (SIH 2026) · Problem Statement PS26089*  
-*Cooperative-Owned Public Digital Service Infrastructure for Verified Craftsmen & Gig Workers*
+> **Connecting Skills. Creating Opportunities. Serving Communities.**  
+> *Cooperative-Owned Public Digital Service Infrastructure for Verified Craftsmen & Gig Workers*
+
+---
+
+### 🇮🇳 Smart India Hackathon (SIH 2026) Submission Details
+
+| Parameter | Specification |
+| :--- | :--- |
+| **Problem Statement ID** | `26089` |
+| **Problem Statement Title** | **Cooperative Gig Services Platform for Household & Community Services** |
+| **Theme** | **Agriculture, FoodTech & Rural Development** |
+| **PS Category** | **Software** |
+| **Team ID** | `120765` |
+| **Team Name** | **ARTARS** |
+
+* **Problem Statement ID** – `26089`
+* **Problem Statement Title** – Cooperative Gig Services Platform for Household & Community Services
+* **Theme** – Agriculture, FoodTech & Rural Development
+* **PS Category** – Software
+* **Team ID** – `120765`
+* **Team Name** – **ARTARS**
 
 ---
 
